@@ -1,0 +1,47 @@
+.mh
+{
+    height: 30vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+}
+.mh_l
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+}
+#car_pic
+{
+    height: 100%;
+    transform: scaleX(-1);
+}
+.mh_r
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+}
+#title_h
+{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(0, 72, 131);
+    font-size: 266%;
+    margin-bottom: 5%;
+}
+.info
+{
+    line-height: 1;
+    letter-spacing: 0.05rem;
+    margin-bottom: 3%;
+}
+
+@media only screen and (max-width: 768px) {
+    .mh_l
+    {
+        display: none;
+    }
+  }

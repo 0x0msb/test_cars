@@ -1,0 +1,12 @@
+.car_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+
+.main_card {
+    width: 20rem; /* Customize the card size */
+    height: 350px; /* Customize the card height */
+}

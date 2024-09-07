@@ -1,0 +1,27 @@
+.line_logo
+{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    height: 5%;
+    width: 100%;
+    background-color: rgb(0, 99, 180);
+}
+.car_logo{
+    height: 4rem;
+
+}
+#dacia
+{
+    width:5rem ;
+}
+
+#citroen
+{
+    height:3rem ;
+}
+#peugeot
+{
+    height:3rem ;
+
+}

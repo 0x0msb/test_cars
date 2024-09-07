@@ -1,0 +1,45 @@
+.main_card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 25rem; 
+    margin: 10px; 
+}
+
+.card_pic {
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: rem;
+}
+
+.card_image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.car_name {
+    flex: 1;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  
+    .main_card {
+        width: 20rem;  
+    }
+    .card_image {
+        width: 100%;
+        height: 100%;
+        object-fit:fill;
+    }
+  }
